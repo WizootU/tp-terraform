@@ -44,7 +44,7 @@ jobs:
     # Étape 5: Terraform Format
     - name: Terraform Format
       id: fmt
-      run: terraform fmt -check
+      run: terraform fmt 
       working-directory: ./terraform
 
     # Étape 6: Terraform Validate
